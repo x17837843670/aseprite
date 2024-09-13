@@ -10,7 +10,7 @@ jobs:
 
     strategy:
 
-      fail-fast: false
+      fail-fast:false
 
       matrix:
 
@@ -26,7 +26,7 @@ jobs:
 
             build_type: Release
 
-            enable_ui: on
+            enable_ui:on
 
     steps:
 
